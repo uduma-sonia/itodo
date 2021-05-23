@@ -1,0 +1,21 @@
+{
+  "name": "Task App",
+  "short_name": "CRUD",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#131212",
+  "theme_color": "#131515",
+  "description": "A Task app using local storage to store data",
+  "icons": [
+    {
+      "src": "img/logo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

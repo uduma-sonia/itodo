@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.6.20/css/uikit.min.css"
+      integrity="sha512-qpzKN4VNcxvcMeBETOL0MS98P5EYQYSkDOlb3LUz2uJAofWrK+YeJioYE64FxK9yjL3M1YEdhjvuXRE4pzMTrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="img/logo1.png" />
+
+    <title>iTodo</title>
+  </head>
+  <body>
+    <div class="uk-grid-small uk-child-width-expand@s" uk-grid>
+      <div></div>
+
+      <div>
+        <div>
+          <h1 class="uk-heading-small uk-heading-line uk-text-center">
+            <span>To do App</span>
+          </h1>
+
+          <form class="uk-margin-large-top">
+            <div class="uk-margin" style="display: flex">
+              <input
+                class="uk-input addText"
+                type="text"
+                placeholder="Add Task"
+              />
+
+              <button
+                id="add-btn"
+                class="add-btn uk-button uk-button-secondary"
+              >
+                Add
+              </button>
+            </div>
+          </form>
+
+          <ul
+            class="list-container uk-list uk-list-striped uk-list-divider"
+          ></ul>
+
+          <button
+            class="
+              clear-btn
+              hide
+              uk-margin-medium-top uk-button uk-button-danger uk-align-center
+            "
+            id="clear-btn"
+          >
+            Clear All
+          </button>
+        </div>
+      </div>
+
+      <div></div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.6.20/js/uikit.min.js"
+      integrity="sha512-SKcdAvrPgF8Iy45+CmcEwF4S2uhVLyTNM8o4UVfggZCQbUIv69qT+b2ppvFlud86827BuRNe7CtCrppmkmdOvQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit-icons.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
