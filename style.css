@@ -1,0 +1,10 @@
+body {
+  background-color: rgba(235, 233, 233, 0.39);
+  min-height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive {
+    padding: 40px 20px;
+  }
+}
